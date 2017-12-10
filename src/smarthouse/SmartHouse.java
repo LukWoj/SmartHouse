@@ -4,16 +4,19 @@ import smarthouse.tvs.*;
 import smarthouse.music.*;
 import smarthouse.printers.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SmartHouse {
     Printer printer;
+    List<TV>  tvList;
 
-    private TV[] tv;
 
     public SmartHouse() {// konstruktor
         printer = new HPPrinter();
-        tv = new TV[2];
-        tv[0] = new TVSony(Room.BATH_ROOM);
-        tv[1] = new TVSamsung(Room.BIG_ROOM);
+        tvList = new ArrayList<>();
+        tvList.add(new TVSony(Room.BATH_ROOM));
+        tvList.add(new TVSamsung(Room.BIG_ROOM));
     }
 
     public void print(String text) {
@@ -25,7 +28,7 @@ public class SmartHouse {
     }
 
     public void shutDownAllDevices() {
-        for (TV iterTV : tv) {
+        for (TV iterTV : tvList) {
             iterTV.shutDown();
         }
         printer.shutDown();
@@ -35,7 +38,7 @@ public class SmartHouse {
 
 
     public void shutDownTV(Room room) {
-        for (TV iterTV : tv) {
+        for (TV iterTV : tvList) {
             if(iterTV.getRoom()==room) {
                 iterTV.shutDown();
             }
@@ -43,7 +46,7 @@ public class SmartHouse {
     }
 
     public void turnOnTV(Room room) {
-        for (TV iterTV : tv) {
+        for (TV iterTV : tvList) {
             if(iterTV.getRoom()==room) {
                 iterTV.turnOn();
             }

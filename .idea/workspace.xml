@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ecf5c48-fbb1-47c0-a0a9-c347d3c84291" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SmartHouse/smarthouse/printers/NoPrinter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/smarthouse/printers/NoPrinter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SmartHouse/driver/LGPrinterDriver.class" afterPath="$PROJECT_DIR$/out/production/SmartHouse/driver/LGPrinterDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SmartHouse/driver/SonyDriver.class" afterPath="$PROJECT_DIR$/out/production/SmartHouse/driver/SonyDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SmartHouse/smarthouse/printers/HPPrinter.class" afterPath="$PROJECT_DIR$/out/production/SmartHouse/smarthouse/printers/HPPrinter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SmartHouse/smarthouse/printers/LGPrinter.class" afterPath="$PROJECT_DIR$/out/production/SmartHouse/smarthouse/printers/LGPrinter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SmartHouse/smarthouse/tvs/TVSony.class" afterPath="$PROJECT_DIR$/out/production/SmartHouse/smarthouse/tvs/TVSony.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simulation.java" afterPath="$PROJECT_DIR$/src/Simulation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/driver/HPPrinterDriver.java" afterPath="$PROJECT_DIR$/src/driver/HPPrinterDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/driver/LGPrinterDriver.java" afterPath="$PROJECT_DIR$/src/driver/LGPrinterDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/driver/SamsungDriver.java" afterPath="$PROJECT_DIR$/src/driver/SamsungDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/driver/SonyDriver.java" afterPath="$PROJECT_DIR$/src/driver/SonyDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smarthouse/Room.java" afterPath="$PROJECT_DIR$/src/smarthouse/Room.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smarthouse/SmartHouse.java" afterPath="$PROJECT_DIR$/src/smarthouse/SmartHouse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smarthouse/printers/HPPrinter.java" afterPath="$PROJECT_DIR$/src/smarthouse/printers/HPPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smarthouse/printers/LGPrinter.java" afterPath="$PROJECT_DIR$/src/smarthouse/printers/LGPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smarthouse/tvs/TV.java" afterPath="$PROJECT_DIR$/src/smarthouse/tvs/TV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smarthouse/tvs/TVSamsung.java" afterPath="$PROJECT_DIR$/src/smarthouse/tvs/TVSamsung.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smarthouse/tvs/TVSony.java" afterPath="$PROJECT_DIR$/src/smarthouse/tvs/TVSony.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,46 +13,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="SmartHouse.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/smarthouse/SmartHouse.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Simulation.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Simulation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TVSamsung.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/smarthouse/tvs/TVSamsung.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="202">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="Simulation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmartHouse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/smarthouse/SmartHouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Devices.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/smarthouse/devices/Devices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,8 +76,9 @@
         <option value="$PROJECT_DIR$/src/driver/LGPrinterDriver.java" />
         <option value="$PROJECT_DIR$/src/smarthouse/Room.java" />
         <option value="$PROJECT_DIR$/src/smarthouse/tvs/TV.java" />
-        <option value="$PROJECT_DIR$/src/smarthouse/SmartHouse.java" />
         <option value="$PROJECT_DIR$/src/Simulation.java" />
+        <option value="$PROJECT_DIR$/src/smarthouse/SmartHouse.java" />
+        <option value="$PROJECT_DIR$/src/smarthouse/devices/Devices.java" />
       </list>
     </option>
   </component>
@@ -108,8 +89,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="940" />
-    <option name="y" value="56" />
+    <option name="x" value="656" />
+    <option name="y" value="176" />
     <option name="width" value="1548" />
     <option name="height" value="1101" />
   </component>
@@ -158,21 +139,7 @@
               <item name="SmartHouse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="smarthouse" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartHouse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="smarthouse" type="462c0819:PsiDirectoryNode" />
-              <item name="printers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartHouse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="smarthouse" type="462c0819:PsiDirectoryNode" />
-              <item name="tvs" type="462c0819:PsiDirectoryNode" />
+              <item name="devices" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,12 +282,12 @@
       <updated>1512835487733</updated>
       <workItem from="1512835492187" duration="234000" />
       <workItem from="1512836177785" duration="606000" />
-      <workItem from="1512898242203" duration="9062000" />
+      <workItem from="1512898242203" duration="11713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9902000" />
+    <option name="totallyTimeSpent" value="12553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1058" extended-state="6" />
@@ -336,7 +303,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28603604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23873875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -415,34 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/smarthouse/printers/LGPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smarthouse/printers/HPPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/driver/SamsungDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/driver/LGPrinterDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -497,24 +440,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/smarthouse/tvs/TVSamsung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="219">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smarthouse/SmartHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Simulation.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/driver/LGPrinterDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smarthouse/printers/LGPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smarthouse/printers/HPPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smarthouse/SmartHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smarthouse/devices/Devices.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
