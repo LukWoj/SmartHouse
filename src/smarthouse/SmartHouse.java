@@ -6,19 +6,14 @@ import smarthouse.printers.*;
 
 public class SmartHouse {
     Printer printer;
-    Deezer deezer;
-    Spotify spotify;
 
     private TV[] tv;
 
-    public SmartHouse() {
+    public SmartHouse() {// konstruktor
         printer = new HPPrinter();
-        deezer = new Deezer();
-        spotify = new Spotify();
         tv = new TV[2];
         tv[0] = new TVSony(Room.BATH_ROOM);
         tv[1] = new TVSamsung(Room.BIG_ROOM);
-
     }
 
     public void print(String text, Room room) {
@@ -29,11 +24,15 @@ public class SmartHouse {
         printer.printInBlackWhite(text);
     }
 
-    public void shutDownALLTV() {
+    public void shutDownAllDevices() {
         for (TV iterTV : tv) {
             iterTV.shutDown();
         }
+        printer.shutDown();
     }
+
+
+
 
     public void shutDownTV(Room room) {
         for (TV iterTV : tv) {

@@ -16,6 +16,10 @@ public class HPPrinter implements Printer{
 
     @Override
     public void printInBlackWhite(String text) {
-        System.out.println("HP Printer does not print in black-white mode");
+        driver.printInBlackWhite(text);
+    }
+
+    @Override
+    public void shutDown() {
     }
 }

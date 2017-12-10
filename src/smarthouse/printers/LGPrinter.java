@@ -15,6 +15,11 @@ public class LGPrinter implements Printer{
 
     @Override
     public void printInBlackWhite(String text) {
-        System.out.println("HP Printer does not print in black");
+        driver.printInBlackWhite(text);
+    }
+
+    @Override
+    public void shutDown() {
+
     }
 }

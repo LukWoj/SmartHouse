@@ -15,7 +15,7 @@ public class TVSony implements TV {
 
     @Override
     public void shutDown() {
-        driver.turnOff();
+        driver.shutDown();
     }
 
     @Override

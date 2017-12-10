@@ -3,8 +3,8 @@ package driver;
 public class SamsungDriver {
 
 
-    public void turnOff() {
-        System.out.println("Samsung tvs power is off");
+    public void turnOff() {// turn of TV
+        System.out.println("TV SAMSUNG mode - turn off");
     }
 
 }

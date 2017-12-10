@@ -2,8 +2,8 @@ package driver;
 
 public class SonyDriver {
 
-    public void turnOff(){
-        System.out.println("Sony tvs power off mode");
+    public void shutDown(){// turn off TV
+        System.out.println("TV SONY mode - turn off");
     }
 
 }

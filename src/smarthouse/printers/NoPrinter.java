@@ -11,4 +11,9 @@ public class NoPrinter implements Printer{
     public void printInBlackWhite(String text) {
         print(text);
     }
+
+    @Override
+    public void shutDown() {
+
+    }
 }
