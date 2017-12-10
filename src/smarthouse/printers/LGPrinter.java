@@ -19,7 +19,7 @@ public class LGPrinter implements Printer{
     }
 
     @Override
-    public void shutDown() {
+    public void turnOff() {
         System.out.println("LG printer mode - turned off");
     }
 }

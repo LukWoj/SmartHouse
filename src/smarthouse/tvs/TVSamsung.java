@@ -15,7 +15,7 @@ public class TVSamsung implements TV {
     }
 
     @Override
-    public void shutDown() {
+    public void turnOff() {
         driver.turnOff();
     }
 

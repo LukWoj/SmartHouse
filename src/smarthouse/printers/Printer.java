@@ -1,8 +1,10 @@
 package smarthouse.printers;
 
-public interface Printer {
+import smarthouse.devices.Device;
+
+public interface Printer extends Device{
 
     void print(String text);// printing
     void printInBlackWhite(String text);//black-white mode printing
-    void shutDown();//shut down device
+
 }

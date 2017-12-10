@@ -20,7 +20,7 @@ public class HPPrinter implements Printer{
     }
 
     @Override
-    public void shutDown() {
+    public void turnOff() {
         System.out.println("HP printer mode - turned off");
     }
 }

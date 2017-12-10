@@ -1,6 +1,8 @@
 package smarthouse.music;
 
-public abstract class MusicPlayer {
+import smarthouse.devices.Device;
+
+public abstract class MusicPlayer implements Device {
     private int volume;
 
     public void setVolume(int volume) {
@@ -9,6 +11,10 @@ public abstract class MusicPlayer {
 
     public int getVolume() {
         return volume;
+    }
+    @Override
+    public void turnOff(){
+        stop();
     }
 
     public abstract void play();
