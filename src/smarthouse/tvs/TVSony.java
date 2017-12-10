@@ -15,11 +15,16 @@ public class TVSony implements TV {
 
     @Override
     public void shutDown() {
-        driver.shutDown();
+        driver.turnOff();
     }
 
     @Override
     public Room getRoom() {
         return room;
+    }
+
+    @Override
+    public void turnOn() {
+        driver.turnOnSony();
     }
 }

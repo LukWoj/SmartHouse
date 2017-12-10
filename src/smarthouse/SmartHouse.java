@@ -16,7 +16,7 @@ public class SmartHouse {
         tv[1] = new TVSamsung(Room.BIG_ROOM);
     }
 
-    public void print(String text, Room room) {
+    public void print(String text) {
         printer.print(text);
     }
 
@@ -42,4 +42,11 @@ public class SmartHouse {
         }
     }
 
+    public void turnOnTV(Room room) {
+        for (TV iterTV : tv) {
+            if(iterTV.getRoom()==room) {
+                iterTV.turnOn();
+            }
+        }
+    }
 }

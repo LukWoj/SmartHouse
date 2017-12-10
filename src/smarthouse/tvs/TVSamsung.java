@@ -23,4 +23,9 @@ public class TVSamsung implements TV {
     public Room getRoom() {
         return room;
     }
+
+    @Override
+    public void turnOn() {
+        driver.turnOnSamsung();
+    }
 }

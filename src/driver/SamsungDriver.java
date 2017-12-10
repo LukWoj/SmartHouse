@@ -7,4 +7,8 @@ public class SamsungDriver {
         System.out.println("TV SAMSUNG mode - turn off");
     }
 
+    public void turnOnSamsung() {// turn on TV
+        System.out.println("TV SAMSUNG mode - turn on");
+    }
+
 }

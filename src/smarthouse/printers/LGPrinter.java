@@ -10,7 +10,7 @@ public class LGPrinter implements Printer{
     }
     @Override
     public void print(String text) {
-        driver.printNow(text);
+        driver.print(text);
     }
 
     @Override
@@ -20,6 +20,6 @@ public class LGPrinter implements Printer{
 
     @Override
     public void shutDown() {
-
+        System.out.println("LG printer mode - turned off");
     }
 }
