@@ -8,5 +8,7 @@ public class Simulation {
         house.print("Print hello");
         house.shutDownAllDevices();
 
+        
+
     }
 }
