@@ -8,13 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SmartHouse {
-    Printer printer;
-    List<TV>  tvList;
-    List<Device>  deviceList;
+    private Printer printer;
+    private List<TV> tvList;
+    private List<Device> deviceList;
 
 
-
-    public SmartHouse() {// konstruktor
+    public SmartHouse() {
+        //printer = new NoPrinter();
         printer = new HPPrinter();
         tvList = new ArrayList<>();
 
@@ -38,15 +38,15 @@ public class SmartHouse {
         printer.printInBlackWhite(text);
     }
 
-    public void shutDownAllDevices() {
+    public void turnOffAllDevices() {
         for (Device iterDevice : deviceList) {
             iterDevice.turnOff();
         }
     }
 
-    public void shutDownTV(Room room) {
+    public void turnOffTV(Room room) {
         for (TV iterTV : tvList) {
-            if(iterTV.getRoom()==room) {
+            if (iterTV.getRoom() == room) {
                 iterTV.turnOff();
             }
         }
@@ -54,9 +54,14 @@ public class SmartHouse {
 
     public void turnOnTV(Room room) {
         for (TV iterTV : tvList) {
-            if(iterTV.getRoom()==room) {
+            if (iterTV.getRoom() == room) {
                 iterTV.turnOn();
             }
         }
     }
+
+    public void plugoutPrinter() {
+        printer = new NoPrinter();
+    }
+
 }

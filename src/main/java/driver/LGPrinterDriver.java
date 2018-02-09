@@ -2,10 +2,10 @@ package driver;
 public class LGPrinterDriver {
 
     public void print(String text){
-        System.out.println("LG - printer driver initialization: " + text);
+        System.out.println("LG -  print command: " + text);
     }
 
     public void printInBlackWhite(String text){
-        System.out.println("LG - black - white mode" + text);
+        System.out.println("LG - print command (black - white mode)" + text);
     }
 }

@@ -2,13 +2,14 @@ package smarthouse.printers;
 
 import driver.HPPrinterDriver;
 
-public class HPPrinter implements Printer{
+public class HPPrinter implements Printer {
 
-    HPPrinterDriver driver;
+    private HPPrinterDriver driver;
 
-    public HPPrinter(){
-       this.driver = new HPPrinterDriver();
+    public HPPrinter() {
+        this.driver = new HPPrinterDriver();
     }
+
     @Override
     public void print(String text) {
         driver.print(text);
@@ -21,6 +22,6 @@ public class HPPrinter implements Printer{
 
     @Override
     public void turnOff() {
-        System.out.println("HP printer mode - turned off");
+        System.out.println("HP printer - turned off");
     }
 }

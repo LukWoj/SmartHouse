@@ -10,7 +10,7 @@ public class TVSony implements TV {
 
     public TVSony(Room room) {
         this.driver = new SonyDriver();
-        this.room=room;
+        this.room = room;
     }
 
     @Override

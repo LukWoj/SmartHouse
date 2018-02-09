@@ -11,7 +11,7 @@ public class TVSamsung implements TV {
 
     public TVSamsung(Room room) {
         this.driver = new SamsungDriver();
-        this.room=room;
+        this.room = room;
     }
 
     @Override
@@ -20,12 +20,12 @@ public class TVSamsung implements TV {
     }
 
     @Override
-    public Room getRoom() {
-        return room;
+    public void turnOn() {
+        driver.turnOnSamsung();
     }
 
     @Override
-    public void turnOn() {
-        driver.turnOnSamsung();
+    public Room getRoom() {
+        return room;
     }
 }

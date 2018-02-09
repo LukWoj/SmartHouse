@@ -2,12 +2,13 @@ package smarthouse.printers;
 
 import driver.LGPrinterDriver;
 
-public class LGPrinter implements Printer{
-    LGPrinterDriver driver;
+public class LGPrinter implements Printer {
+    private LGPrinterDriver driver;
 
-    public LGPrinter(){
+    public LGPrinter() {
         driver = new LGPrinterDriver();
     }
+
     @Override
     public void print(String text) {
         driver.print(text);
@@ -20,6 +21,6 @@ public class LGPrinter implements Printer{
 
     @Override
     public void turnOff() {
-        System.out.println("LG printer mode - turned off");
+        System.out.println("LG printer - turned off");
     }
 }
