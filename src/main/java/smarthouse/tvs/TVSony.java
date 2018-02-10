@@ -8,19 +8,13 @@ public class TVSony implements TV {
     private SonyDriver driver;
     private Room room;
 
-    public TVSony(Room room) {
+    public TVSony() {
         this.driver = new SonyDriver();
-        this.room = room;
     }
 
     @Override
     public void turnOff() {
         driver.turnOff();
-    }
-
-    @Override
-    public Room getRoom() {
-        return room;
     }
 
     @Override

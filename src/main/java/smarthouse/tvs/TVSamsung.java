@@ -7,11 +7,9 @@ import smarthouse.Room;
 public class TVSamsung implements TV {
 
     private SamsungDriver driver;
-    private Room room;
 
-    public TVSamsung(Room room) {
+    public TVSamsung() {
         this.driver = new SamsungDriver();
-        this.room = room;
     }
 
     @Override
@@ -24,8 +22,4 @@ public class TVSamsung implements TV {
         driver.turnOnSamsung();
     }
 
-    @Override
-    public Room getRoom() {
-        return room;
-    }
 }

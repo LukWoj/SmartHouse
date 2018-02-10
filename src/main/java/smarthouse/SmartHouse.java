@@ -5,28 +5,31 @@ import smarthouse.tvs.*;
 import smarthouse.printers.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class SmartHouse {
     private Printer printer;
-    private List<TV> tvList;
     private List<Device> deviceList;
+    private Map<Room, TV> roomToTV;
 
 
     public SmartHouse() {
-        //printer = new NoPrinter();
-        printer = new HPPrinter();
-        tvList = new ArrayList<>();
-
-        TV tvSony = new TVSony(Room.BATH_ROOM);
-        tvList.add(tvSony);
-        TV tvSamsung = new TVSamsung(Room.BIG_ROOM);
-        tvList.add(tvSamsung);
+        printer = new LGPrinter();
+        TV tvSony = new TVSony();
+        TV tvSamsung = new TVSamsung();
 
         deviceList = new ArrayList<>();
-        deviceList.add(tvSamsung);
+
         deviceList.add(tvSony);
+        deviceList.add(tvSamsung);
         deviceList.add(printer);
+
+
+        roomToTV = new HashMap<>();
+        roomToTV.put(Room.BATH_ROOM, tvSony);
+        roomToTV.put(Room.BIG_ROOM, tvSamsung);
 
     }
 
@@ -45,19 +48,11 @@ public class SmartHouse {
     }
 
     public void turnOffTV(Room room) {
-        for (TV iterTV : tvList) {
-            if (iterTV.getRoom() == room) {
-                iterTV.turnOff();
-            }
-        }
+        roomToTV.get(room).turnOff();
     }
 
     public void turnOnTV(Room room) {
-        for (TV iterTV : tvList) {
-            if (iterTV.getRoom() == room) {
-                iterTV.turnOn();
-            }
-        }
+        roomToTV.get(room).turnOn();
     }
 
     public void plugoutPrinter() {
