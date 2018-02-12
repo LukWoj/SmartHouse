@@ -1,5 +1,5 @@
-import smarthouse.Room;
-import smarthouse.SmartHouse;
+import backend.Room;
+import backend.SmartHouse;
 
 public class Simulation {
     public static void main(String[] args) {
@@ -12,6 +12,5 @@ public class Simulation {
 
         house.print("Print hello");
         house.turnOffAllDevices();
-
     }
 }

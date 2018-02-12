@@ -1,7 +1,7 @@
-package smarthouse.tvs;
+package backend.tvs;
 
-import driver.SonyDriver;
-import smarthouse.Room;
+import backend.driver.SonyDriver;
+import backend.Room;
 
 public class TVSony implements TV {
 

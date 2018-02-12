@@ -1,6 +1,6 @@
-package smarthouse.printers;
+package backend.printers;
 
-import smarthouse.devices.Device;
+import backend.devices.Device;
 
 public interface Printer extends Device{
 

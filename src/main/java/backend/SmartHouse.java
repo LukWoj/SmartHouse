@@ -1,8 +1,8 @@
-package smarthouse;
+package backend;
 
-import smarthouse.devices.Device;
-import smarthouse.tvs.*;
-import smarthouse.printers.*;
+import backend.devices.Device;
+import backend.tvs.*;
+import backend.printers.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;

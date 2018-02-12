@@ -1,6 +1,6 @@
-package smarthouse.printers;
+package backend.printers;
 
-import driver.LGPrinterDriver;
+import backend.driver.LGPrinterDriver;
 
 public class LGPrinter implements Printer {
     private LGPrinterDriver driver;

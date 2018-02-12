@@ -1,4 +1,4 @@
-package smarthouse.devices;
+package backend.devices;
 
 public interface Device
 {

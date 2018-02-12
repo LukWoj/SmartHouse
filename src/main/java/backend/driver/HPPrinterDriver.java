@@ -1,8 +1,8 @@
-package driver;
+package backend.driver;
 
 public class HPPrinterDriver {
 
-    public void print(String text){// printer driver starter
+    public void print(String text){// printer backend.driver starter
         System.out.println("HP - print command: " + text);
     }
 

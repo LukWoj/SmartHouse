@@ -1,15 +1,15 @@
-package smarthouse.music;
+package backend.music;
 
-public class Deezer extends MusicPlayer {
+public class Spotify extends MusicPlayer {
 
     @Override
     public void play() {
-        System.out.println("Deezer - play");
+        System.out.println("Spotify - play");
     }
 
     @Override
     public void stop() {
-        System.out.println("Deezer - stop");
+        System.out.println("Spotify - stop");
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Deezer extends MusicPlayer {
 
     @Override
     public void volume() {
-    setVolume(getVolume() + 1);
+        setVolume(getVolume() + 1);
     }
 
     @Override

@@ -1,4 +1,4 @@
-package driver;
+package backend.driver;
 public class LGPrinterDriver {
 
     public void print(String text){

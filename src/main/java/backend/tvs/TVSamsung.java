@@ -1,7 +1,6 @@
-package smarthouse.tvs;
+package backend.tvs;
 
-import driver.SamsungDriver;
-import smarthouse.Room;
+import backend.driver.SamsungDriver;
 
 
 public class TVSamsung implements TV {

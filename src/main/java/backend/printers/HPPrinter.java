@@ -1,6 +1,6 @@
-package smarthouse.printers;
+package backend.printers;
 
-import driver.HPPrinterDriver;
+import backend.driver.HPPrinterDriver;
 
 public class HPPrinter implements Printer {
 

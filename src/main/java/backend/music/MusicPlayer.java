@@ -1,6 +1,6 @@
-package smarthouse.music;
+package backend.music;
 
-import smarthouse.devices.Device;
+import backend.devices.Device;
 
 public abstract class MusicPlayer implements Device {
     private int volume;

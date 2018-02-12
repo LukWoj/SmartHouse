@@ -1,4 +1,4 @@
-package smarthouse.printers;
+package backend.printers;
 
 public class NoPrinter implements Printer {
 
