@@ -10,13 +10,13 @@ import java.util.List;
 import java.util.Map;
 
 public class SmartHouse {
-    private Printer printer;
+    private Printer LGprinter;
     private List<Device> deviceList;
     private Map<Room, TV> roomToTV;
 
 
     public SmartHouse() {
-        printer = new LGPrinter();
+        LGprinter = new LGPrinter();
         TV tvSony = new TVSony();
         TV tvSamsung = new TVSamsung();
 
@@ -24,7 +24,7 @@ public class SmartHouse {
 
         deviceList.add(tvSony);
         deviceList.add(tvSamsung);
-        deviceList.add(printer);
+        deviceList.add(LGprinter);
 
 
         roomToTV = new HashMap<>();
@@ -34,11 +34,11 @@ public class SmartHouse {
     }
 
     public void print(String text) {
-        printer.print(text);
+        LGprinter.print(text);
     }
 
     public void printBlackWhite(String text) {
-        printer.printInBlackWhite(text);
+        LGprinter.printInBlackWhite(text);
     }
 
     public void turnOffAllDevices() {
@@ -56,7 +56,6 @@ public class SmartHouse {
     }
 
     public void plugoutPrinter() {
-        printer = new NoPrinter();
+        LGprinter = new NoPrinter();
     }
-
 }

@@ -10,6 +10,4 @@ public class Response {
     public String getResponse() {
         return response;
     }
-
-
 }

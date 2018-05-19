@@ -12,6 +12,7 @@ public abstract class MusicPlayer implements Device {
     public int getVolume() {
         return volume;
     }
+
     @Override
     public void turnOff(){
         stop();
